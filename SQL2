@@ -1,0 +1,21 @@
+Select *
+From PortfolioProject1.dbo.Population_Country_City
+Order by rank
+
+Select TOP 10 rank Name, Population
+From Population_Country_City
+
+
+Select TOP 10 rank,Name, Population
+From PortfolioProject1.dbo.Population_Country_City
+order by rank desc
+
+
+Select *
+From PortfolioProject1.dbo.Population_Country_City
+order by Growth desc
+
+
+Select TOP 10 rank,Name, Population
+From PortfolioProject1.dbo.Population_Country_City
+order by rank desc
